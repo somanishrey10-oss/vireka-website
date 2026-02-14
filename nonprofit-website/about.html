@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - Vireka</title>
+  <meta name="description" content="Learn about Vireka's mission to empower students through research publishing and biotech innovation programs worldwide.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <canvas id="techCanvas"></canvas>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="index.html" class="nav-logo">
+        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="16" cy="16" r="14" stroke="currentColor" stroke-width="2.5"/>
+          <path d="M16 8C12 8 10 12 10 16C10 20 12 24 16 24C20 24 22 20 22 16" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+          <circle cx="16" cy="12" r="2" fill="currentColor"/>
+        </svg>
+        Vireka
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="about.html" class="active">About</a>
+        <a href="programs.html">Programs</a>
+        <a href="crisisgen.html">Crisis Gen</a>
+        <a href="join.html">Join Us</a>
+        <a href="contact.html">Contact</a>
+        <a href="donate.html" class="btn btn-primary nav-cta">Support Us</a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- PAGE HEADER -->
+  <section class="page-header">
+    <div class="container">
+      <h1>About Vireka</h1>
+      <p>From a Bay Area classroom to a global research movement &mdash; in just one year.</p>
+    </div>
+  </section>
+
+  <!-- MISSION -->
+  <section class="section">
+    <div class="container">
+      <div style="max-width: 720px; margin: 0 auto;">
+        <span class="section-label">Our Mission</span>
+        <h2 class="section-title">Making Research Accessible to Every Student</h2>
+        <p style="font-size: 1.05rem; margin-bottom: 1.5rem;">
+          Vireka was born from a simple idea: students shouldn't have to wait until college to do real research. Too many young people with brilliant ideas never get the mentorship, resources, or guidance to turn their curiosity into published work.
+        </p>
+        <p style="font-size: 1.05rem; margin-bottom: 1.5rem;">
+          We bridge that gap. Through our Research Publishing Program, students choose their own topic, receive hands-on mentorship, and publish their work in peer-reviewed academic journals. Through our Biotech Innovation Program, students work in Stanford and UCSF affiliated labs to design biotech devices, file patents, and develop commercialization plans.
+        </p>
+        <p style="font-size: 1.05rem;">
+          In just one year since our founding in December 2024, we've helped over 700 students get published, expanded to 7+ countries, partnered with UC Berkeley, and been featured on local news. We're just getting started.
+        </p>
+
+        <!-- University Affiliations -->
+        <div class="uni-logos" style="justify-content: flex-start; margin-top: 2rem;">
+          <div class="uni-logo">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+              <rect width="40" height="40" rx="8" fill="#8C1515"/>
+              <text x="20" y="16" text-anchor="middle" fill="white" font-size="7" font-weight="700" font-family="Inter, sans-serif">STANFORD</text>
+              <text x="20" y="26" text-anchor="middle" fill="white" font-size="5.5" font-weight="500" font-family="Inter, sans-serif">UNIVERSITY</text>
+              <rect x="8" y="30" width="24" height="1.5" rx="0.75" fill="rgba(255,255,255,0.4)"/>
+            </svg>
+            <div class="uni-logo-text">
+              <strong>Stanford</strong>
+              Affiliated Labs
+            </div>
+          </div>
+          <div class="uni-logo">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+              <rect width="40" height="40" rx="8" fill="#052049"/>
+              <text x="20" y="17" text-anchor="middle" fill="#F4C542" font-size="9" font-weight="800" font-family="Inter, sans-serif">UCSF</text>
+              <rect x="10" y="23" width="20" height="1.5" rx="0.75" fill="rgba(244,197,66,0.5)"/>
+              <text x="20" y="32" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-size="4.5" font-weight="500" font-family="Inter, sans-serif">HEALTH</text>
+            </svg>
+            <div class="uni-logo-text">
+              <strong>UCSF</strong>
+              Research Partner
+            </div>
+          </div>
+          <div class="uni-logo">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+              <rect width="40" height="40" rx="8" fill="#003262"/>
+              <text x="20" y="15" text-anchor="middle" fill="#FDB515" font-size="7" font-weight="800" font-family="Inter, sans-serif">UC</text>
+              <text x="20" y="25" text-anchor="middle" fill="white" font-size="5.5" font-weight="600" font-family="Inter, sans-serif">BERKELEY</text>
+              <rect x="10" y="30" width="20" height="1.5" rx="0.75" fill="rgba(253,181,21,0.4)"/>
+            </svg>
+            <div class="uni-logo-text">
+              <strong>UC Berkeley</strong>
+              Program Partner
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VALUES -->
+  <section class="section section-alt">
+    <div class="container text-center">
+      <span class="section-label">Our Values</span>
+      <h2 class="section-title">What Drives Us</h2>
+      <div class="card-grid" style="margin-top: 2rem;">
+        <div class="card">
+          <div class="card-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+            </svg>
+          </div>
+          <h3>Student-First</h3>
+          <p>Every program is designed around the student's interests and goals. They choose their research topic, they own their work, and they build skills that last a lifetime.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+            </svg>
+          </div>
+          <h3>Global Access</h3>
+          <p>Research shouldn't be limited by geography or resources. Our programs reach students across 7+ countries through a network of dedicated representatives.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+            </svg>
+          </div>
+          <h3>Real Outcomes</h3>
+          <p>We don't do busywork. Students publish in actual peer-reviewed journals, file real patents, and develop genuine intellectual property they can carry forward.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TIMELINE -->
+  <section class="section">
+    <div class="container text-center">
+      <span class="section-label">Our Journey</span>
+      <h2 class="section-title" style="margin-bottom: 3rem;">One Year of Rapid Growth</h2>
+      <div class="timeline" style="text-align: left;">
+        <div class="timeline-item">
+          <div class="timeline-year">December 2024</div>
+          <h3>Vireka Founded</h3>
+          <p>Launched with a vision to make research publishing accessible to students of all backgrounds.</p>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-year">January 2025</div>
+          <h3>Bay Area Expansion</h3>
+          <p>Expanded into local Bay Area school districts, bringing the Research Publishing Program to students across the region.</p>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-year">June 2025</div>
+          <h3>UC Berkeley Partnership &amp; Media Feature</h3>
+          <p>Partnered with UC Berkeley to expand program reach. Featured on local Bay Area news for our impact on student research.</p>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-year">July 2025</div>
+          <h3>400+ Students Published</h3>
+          <p>Reached the milestone of helping over 400 students publish their original research in peer-reviewed journals.</p>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-year">September 2025</div>
+          <h3>UCSF Lab Affiliation</h3>
+          <p>Established affiliation with UCSF labs, launching the Biotech Innovation Program with access to world-class research facilities.</p>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-year">December 2025</div>
+          <h3>7+ Countries &amp; 700+ Students</h3>
+          <p>Expanded to representatives across 7+ countries and surpassed 700 published students &mdash; all within our first year.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section class="section section-alt">
+    <div class="container text-center">
+      <span class="section-label">Our Team</span>
+      <h2 class="section-title">The People Behind Vireka</h2>
+      <p class="section-desc">A global team of students and leaders passionate about making research accessible to the next generation.</p>
+      <div class="team-grid">
+        <div class="team-card">
+          <img src="assets/team/shrey.jpg" alt="Shrey Somani" class="team-photo">
+          <h3>Shrey Somani</h3>
+          <p class="team-role">Founder &amp; President</p>
+          <p>Founded Vireka to democratize research access for students worldwide.</p>
+        </div>
+        <div class="team-card">
+          <img src="assets/team/naira.jpg" alt="Naira Kandimalla" class="team-photo">
+          <h3>Naira Kandimalla</h3>
+          <p class="team-role">USA Representative</p>
+          <p>Leads Vireka's operations and student outreach across the United States.</p>
+        </div>
+        <div class="team-card">
+          <img src="assets/team/bhanu.jpg" alt="Bhanu Doodi" class="team-photo">
+          <h3>Bhanu Doodi</h3>
+          <p class="team-role">Global Coordinator</p>
+          <p>Coordinates Vireka's international expansion and cross-country collaboration.</p>
+        </div>
+        <div class="team-card">
+          <img src="assets/team/miral.jpg" alt="Miral Rami" class="team-photo">
+          <h3>Miral Rami</h3>
+          <p class="team-role">Qatar Representative</p>
+          <p>Brings Vireka's research programs to students across Qatar and the Middle East.</p>
+        </div>
+        <div class="team-card">
+          <img src="assets/team/sabiha.jpg" alt="Sabiha Sharif" class="team-photo">
+          <h3>Sabiha Sharif</h3>
+          <p class="team-role">Bangladesh Representative</p>
+          <p>Leads program expansion and student engagement in Bangladesh.</p>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar">HS</div>
+          <h3>Harini Senthil</h3>
+          <p class="team-role">Global Research Lead</p>
+          <p>Oversees research quality and mentorship standards across all Vireka programs globally.</p>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar">NU</div>
+          <h3>Nevish Upalla</h3>
+          <p class="team-role">USA Research Lead</p>
+          <p>Manages research mentorship and student publishing pipelines in the United States.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="mission-banner">
+    <div class="container">
+      <h2>Join the Vireka Movement</h2>
+      <p>Whether you're a student, educator, or supporter &mdash; there's a place for you in making research accessible to every young mind.</p>
+      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+        <a href="donate.html" class="btn btn-accent btn-lg">Support Us</a>
+        <a href="contact.html" class="btn btn-outline btn-lg">Get in Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">
+            <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" width="28" height="28">
+              <circle cx="16" cy="16" r="14" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M16 8C12 8 10 12 10 16C10 20 12 24 16 24C20 24 22 20 22 16" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              <circle cx="16" cy="12" r="2" fill="currentColor"/>
+            </svg>
+            Vireka
+          </div>
+          <p class="footer-desc">Empowering students worldwide to publish original research and innovate in biotech. Founded December 2024.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="donate.html">Donate</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Programs</h4>
+          <ul>
+            <li><a href="#">Research Publishing</a></li>
+            <li><a href="#">Biotech Innovation</a></li>
+            <li><a href="crisisgen.html">Crisis Gen</a></li>
+            <li><a href="#">Partnerships</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:thehostproject@gmail.com">thehostproject@gmail.com</a></li>
+            <li><a href="contact.html">Get in Touch</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2025 Vireka. All rights reserved.</span>
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="#" aria-label="LinkedIn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+          <a href="mailto:thehostproject@gmail.com" aria-label="Email">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
